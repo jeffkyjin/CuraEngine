@@ -60,6 +60,7 @@ set(engine_SRCS
     src/utils/logoutput.cpp
     src/utils/polygonUtils.cpp
     src/utils/polygon.cpp
+    src/utils/TravellingSalesman.cpp
 )
 
 protobuf_generate_cpp(engine_PB_SRCS engine_PB_HEADERS Cura.proto)
